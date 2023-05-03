@@ -1,0 +1,12 @@
+#include <Windows.h>
+#include <wingdi.h>
+
+enum Color
+{
+	RED = (DWORD)0xFFFF0000,
+	WHITE = (DWORD)0xFFFFFFFF,
+	BLACK = (DWORD)0xFF000000,
+	GREEN = (DWORD)0xFF00FF00,
+	YELLOW = (DWORD)0xFFFFFF00,
+	BLUE = (DWORD)0xFF0000FF,
+};

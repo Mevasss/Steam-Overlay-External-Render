@@ -1,0 +1,30 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="main.cpp" />
+    <ClCompile Include="OverlayRender.cpp">
+      <Filter>SteamOverlay</Filter>
+    </ClCompile>
+    <ClCompile Include="SharedMemoryStream.cpp">
+      <Filter>SteamOverlay</Filter>
+    </ClCompile>
+    <ClCompile Include="ColorEnum.h">
+      <Filter>SteamOverlay</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Logs.h" />
+    <ClInclude Include="Globals.h" />
+    <ClInclude Include="OverlayRender.h">
+      <Filter>SteamOverlay</Filter>
+    </ClInclude>
+    <ClInclude Include="SharedMemoryStream.h">
+      <Filter>SteamOverlay</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="SteamOverlay">
+      <UniqueIdentifier>{84fef5b4-93b5-4f09-a347-1448806b38bf}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>
